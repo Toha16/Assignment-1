@@ -195,3 +195,73 @@
 }
 /* second div box end  */
 
+/* My inspiration start here  */
+
+.inspiration-container{
+   width: 1140px;
+   height: 777px;
+   margin: 88px 152px 149px 148px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 0px;
+}
+.inspiration-section{
+    width: 852px;
+    height: 115px;
+    margin: 0px 144px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+.inspiration-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+.inspiration-content{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    padding-bottom: 48px;
+}
+.inspiration-sector{
+    position: static;
+    width: 1140px;
+    height: 614px;
+    margin-top: 48 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+.Rectangle, iframe{
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+    background: url(Jhankar);
+}
+/* My inspiration end here  */
+
+/* My current plan start  */
+
+.target-container{
+    width: 1140px;
+    height: 462px;
+    margin: 149px 150px 111px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
