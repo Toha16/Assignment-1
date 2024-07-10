@@ -11,7 +11,7 @@
   /* banner part starts here */
 
   .header-part{
-    width: 1425px;
+    width: 1440px;
     height: 652px;
     margin-top: 131px;
     background-image: url(../assets/Hero-bg.png);
@@ -66,4 +66,132 @@
 }
 
 /* web development section stats here */
+
+.section-container{
+    width: 1140px;
+    height: 1395px;
+    margin: 74px 152px 88px 148px;
+}
+.web-container{
+    position: static;
+    width: 946px;
+    height: 1235px;
+    margin: 80px 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+.section-title{
+    width: 852px;
+    height: 115px;
+    margin: 0px 47px 0px 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+.section-subtitle{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+.section-content{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    padding-top: 24px;
+}
+
+/* first div box start  */
+
+.code-container{
+    width: 946px;
+    height: 336px;
+    margin-top: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.code-content{
+    width: 850px;
+    height: 240px;
+    margin: 48px 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+.code-description{
+    width: 850px;
+    height: 240px;
+    margin: 10px 100px 10px 0px;
+}
+.title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0px 5px 16px 0px;
+}
+.code-section{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 32px;
+}
+.btn-secondary{
+    width: 150px;
+    height: 48px;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+.btn-secondary:hover{
+    background-color: darkgreen;
+}
+
+/* second div box start */
+
+.system-container{
+    width: 852px;
+    height: 260px;
+    margin: 32px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 48px;
+}
+.system-description{
+    width: 850px;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+.system-content{
+    width: 477px;
+    height: 220px;
+    margin: 0px 32px;
+}
+.system-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+.system-section-content{
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.7;
+    padding-bottom: 32px;
+}
+/* second div box end  */
 
