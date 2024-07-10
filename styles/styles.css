@@ -256,12 +256,106 @@
 
 .target-container{
     width: 1140px;
-    height: 462px;
+    height: 467px;
     margin: 149px 150px 111px;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     padding: 0px;
 }
+.current-container{
+    width: 852px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+.target-title{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+.target-content{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    padding-bottom: 48px;
+}
+.content-container{
+    width: 1140px;
+    height: 330px;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+}
+.target-description{
+    width: 364px;
+    height: 299px;
+    margin: 0px 24 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.hyper-part{
+    width: 284px;
+    height: 219px;
+    margin: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+}
+.hyper-part, img{
+    padding-bottom: 14px;
+}
+.hyper-part, h4{
+    font-size: 22px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    padding-top: 24px;
+}
+.hyper-part, p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    padding-top: 10px;
+}
+.hyper-part,a{
+    padding-top: 24px;
+}
+.bg-section{
+    width: 364px;
+    height: 299px;
+    margin: 0px 24 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.bg-container{
+    width: 364px;
+    height: 299px;
+    margin: 0px 24 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
