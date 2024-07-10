@@ -13,7 +13,7 @@
   .header-part{
     width: 1440px;
     height: 652px;
-    margin-top: 131px;
+    margin: 131px 0px 74px 0px;
     background-image: url(../assets/Hero-bg.png);
   }
   .banner-section{
@@ -335,6 +335,7 @@
 }
 .hyper-part,a{
     padding-top: 24px;
+    color: (13, 19, 33)
 }
 .bg-section{
     width: 364px;
@@ -358,4 +359,93 @@
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
 }
+/* My current plan start  */
 
+/* I need support part start here  */
+
+.support-container{
+    position: absolute;
+    width: 1146px;
+    height: 319px;
+    margin: 47px 120px 80px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(../assets/handshake.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 16px;
+    
+}
+.support-content{
+    width: 954px;
+    height: 185px;
+    margin: 64px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.support-section{
+    width: 730px;
+    height: 104px;
+    margin: 0px 157px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.support-section, h4{
+    padding-bottom:16px ;
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.support-section, p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+.support-content-section{
+    width: 684px;
+    height: 57px;
+    margin: 24px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.feedback-form{
+    width: 548px;
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-section{
+    width: 120px;
+    height: 57px;
+    margin: 0px 0px 0px 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px 17px 20px;
+    color: (13, 19, 33)
+}
+.btn-section:hover{
+    background-color: darkgreen;
+}
